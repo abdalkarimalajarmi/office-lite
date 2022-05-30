@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "kunbhSansReg";
+  src: url(../fonts/KumbhSans-Regular.ttf);
+}
+@font-face {
+  font-family: "kunbhSansBold";
+  src: url(../fonts/KumbhSans-Bold.ttf);
+}
+.container {
+  padding: 20px;
+  width: 85%;
+  margin: auto;
+}
+.flexs {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.img {
+  margin-top: 20px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+.header .charts img {
+  width: 100%;
+}
+.container .main-content {
+  font-size: 54px;
+  color: #333950;
+  font-family: "kunbhSansBold";
+}
+.container .secondary-content {
+  font-size: 28px;
+  line-height: 2;
+  font-family: "kunbhSansReg";
+  color: #707070;
+}
+.container .getStarted {
+  font-size: 18px;
+  color: #fff;
+  background-color: #5175ff;
+  border-radius: 118px;
+  text-transform: capitalize;
+  font-family: "kunbhSansBold";
+  border: none;
+  padding: 15px 20px;
+  margin-top: 30px;
+}
+.getStarted:hover {
+  background-color: lightcyan;
+  color: #5175ff;
+  cursor: pointer;
+}
+.purchase {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  border-color: #fff;
+  border-style: solid;
+  margin-right: 16px;
+  margin-bottom: 45px;
+  text-align: center;
+  font-family: kunbhSansReg;
+}
+.types {
+  padding: 100px;
+  text-align: center;
+  border-radius: 18px;
+}
+.types:hover {
+  background-color: #5175ff;
+  color: #fff;
+}
+.container .purchase .price {
+  font-family: kunbhSansBold;
+  font-size: 64px;
+}
+.container .purchase .type {
+  padding-bottom: 25px;
+}
+.details {
+  margin-top: 50px;
+}
+.details .advantage {
+  margin-bottom: 10px;
+}
+.details .storage {
+  margin-bottom: 10px;
+}
+.Try {
+  background-color: #5175ff;
+  color: #fff;
+  border: none;
+  margin: 18px;
+  padding: 10px;
+  margin-top: 100px;
+  border-radius: 118px;
+}
+.types:hover .Try {
+  background-color: #fff;
+  color: #5175ff;
+  cursor: pointer;
+}
+.coming-soon {
+  font-family: "kunbhSansBold";
+  text-transform: uppercase;
+  font-size: 16px;
+}
+.date {
+  color: #5175ff;
+}
+.bottom-page {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12%;
+}
+.date-boxes {
+  display: flex;
+  justify-content: space-between;
+  font-family: "kunbhSansBold";
+}
+.dates {
+  text-align: center;
+  margin-left: 15px;
+  color: #fff;
+  background-color: #333950;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+  font-size: 56px;
+}
+.mini {
+  font-size: 16px;
+}
+.container .getStarted2 button {
+  font-size: 18px;
+  color: #fff;
+  background-color: #5175ff;
+  border-radius: 118px;
+  text-transform: capitalize;
+  font-family: "kunbhSansBold";
+  border: none;
+  padding: 15px;
+  margin: 50px;
+}
+.getStarted2 button:hover {
+  background-color: lightcyan;
+  color: #5175ff;
+  cursor: pointer;
+}
